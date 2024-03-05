@@ -1,5 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,41 +25,20 @@ header {
   align-items: flex-start;
 }
 
-nav a {
-  display: inline-flex;
+.menu-tab {
+  display: flex;
   align-items: center;
   color: #fffbf0;
   text-decoration: none;
   font-weight: 600;
-  margin: 0 2vw;
 }
 
-nav a:hover{
-  text-decoration: underline;
-}
-
-.introduction {
+.menu-tab li{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 4vw;
 }
 
-.introduction h1{
-  color: #ffff;
-  font-size: 48px;
-  font-weight: 800;
-  margin: 1em 15% 0;
-  text-align: center;
-}
-
-.introduction button{
-background-color: #00aa13;
-color: #fff;
-border: none;
-font-size: 18px;
-border-radius: 30px;
-padding: 0.8em 1.5em;
-font-weight: 500;
-margin: 2em 0;
+.menu-tab li:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
