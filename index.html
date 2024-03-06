@@ -38,10 +38,18 @@
     </header>
 
     <main>
-      <video width="100%" controls>
-        <source src="movie.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner-video">
+          <video width="100%" autoplay loop muted>
+            <source src="./images/video/hero-banner.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="banner-text">
+          <h1>3 negara. 20+ layanan. 1 platform on-demand terkemuka.</h1>
+        </div>
+      </section>
 
       <!-- introduction -->
       <section class="introduction">
@@ -129,27 +137,6 @@
         </div>
       </section>
 
-      <!-- carousel -->
-      <div class="carousel">
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-      </div>
-
-      <div class="button-row">
-        <button class="button button--previous">&larr;</button>
-        <div class="button-group button-group--cells">
-          <button class="button is-selected">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
-          <button class="button">4</button>
-          <button class="button">5</button>
-        </div>
-        <button class="button button--next">&rarr;</button>
-      </div>
-
       <!-- offering -->
       <section class="offering">
         <h1>Bertumbuh besar bersama Gojek</h1>
@@ -200,18 +187,37 @@
           <picture id="slide-1-reason">
             <source media="(min-width:451px)" srcset="./images/reason-1.jpg" />
             <img src="./images/reason-1-mobile.jpg" alt="Reason 1" />
+            <div class="caption-reason">
+              <h3>Asuransi kesehatan untuk ayah ibu</h3>
+              <p>Subsidi asuransi kesehatan buat kedua orang tuamu</p>
+            </div>
           </picture>
           <picture id="slide-2-reason">
             <source media="(min-width:451px)" srcset="./images/reason-2.jpg" />
             <img src="./images/reason-2-mobile.jpg" alt="Reason 2" />
+            <div class="caption-reason">
+              <h3>Bermacam-macam subsidi</h3>
+              <p>
+                Mau beli buku, daftar gym membership, isi pulsa? Gojek bisa
+                kasih subsidi!
+              </p>
+            </div>
           </picture>
           <picture id="slide-3-reason">
             <source media="(min-width:451px)" srcset="./images/reason-3.jpg" />
             <img src="./images/reason-3-mobile.jpg" alt="Reason 3" />
+            <div class="caption-reason">
+              <h3>Kolaborasi antar budaya</h3>
+              <p>Bisa kerjasama dengan GoTroops dari berbagai negara!</p>
+            </div>
           </picture>
           <picture id="slide-4-reason">
             <source media="(min-width:451px)" srcset="./images/reason-4.jpg" />
             <img src="./images/reason-4-mobile.jpg" alt="Reason 4" />
+            <div class="caption-reason">
+              <h3>Peduli kesehatan mental</h3>
+              <p>Konseling gratis untukmu dan keluargamu</p>
+            </div>
           </picture>
         </div>
         <div class="carousel-slider-reason">
@@ -221,8 +227,79 @@
           <a href="#slide-4-reason"></a>
         </div>
       </section>
-    </main>
 
-    <script src="./js/index.js"></script>
+      <!-- product -->
+      <section class="product">
+        <h1>Kami membangun layanan untuk membantumu melewati halangan</h1>
+        <button>Lihat semua layanan</button>
+
+        <div class="product-container">
+          <div class="product-box" id="product-box-1">
+            <div class="product-items" id="product-items-1">
+              <img src="./images/gobox.svg" alt="Gobox logo" />
+              <img src="./images/goride.svg" alt="Go ride logo" />
+              <img src="./images/gobluebird.svg" alt="Go Blue Bird logo" />
+              <img src="./images/gosend.svg" alt="Gosend logo" />
+              <img src="./images/gocar.svg" alt="Gocar logo" />
+            </div>
+            <div class="product-caption">
+              <h3>Transportasi & Logistik</h3>
+              <p>
+                Mitra Driver kami sudah melakukan lebih dari 13.000 kali
+                perjalanan bolak-balik antara bumi dan bulan
+              </p>
+            </div>
+          </div>
+          <div class="product-box" id="product-box-2">
+            <div class="product-items" id="product-items-2">
+              <img src="./images/gopay.svg" alt="Gopay logo" />
+              <img src="./images/gosure.svg" alt="Gosure logo" />
+              <img src="./images/gopaylater.svg" alt="Gopaylater logo" />
+              <img src="./images/gotagihan.svg" alt="Gotagihan logo" />
+            </div>
+            <div class="product-caption">
+              <h3>Pembayaran</h3>
+              <p>
+                Dari belanja sampai donasi, kami bikin transaksi jadi mudah dan
+                aman
+              </p>
+            </div>
+          </div>
+          <div class="product-box" id="product-box-3">
+            <div class="product-items" id="product-items-3">
+              <img src="./images/gomed.svg" alt="Gomed logo" />
+              <img src="./images/goshop.svg" alt="Goshop logo" />
+              <img src="./images/gofood.svg" alt="GoFood logo" />
+              <img src="./images/gomart.svg" alt="Gomart logo" />
+            </div>
+            <div class="product-caption">
+              <h3>Pesan makanan & belanja</h3>
+              <p>
+                Mau jajan atau belanja di minimarket? Gampang, tinggal pesan
+                dari aplikasi dan tidak perlu keluar rumah
+              </p>
+            </div>
+          </div>
+          <div class="product-box" id="product-box-4">
+            <div class="product-items" id="product-items-4">
+              <img src="./images/midtrans.svg" alt="Midtrans logo" />
+              <img src="./images/gostore.svg" alt="Gostore logo" />
+              <img src="./images/moka.svg" alt="Moka logo" />
+              <img src="./images/gobiz.svg" alt="Gobiz logo" />
+              <img src="./images/selly.svg" alt="Selly logo" />
+            </div>
+            <div class="product-caption">
+              <h3>Bisnis</h3>
+              <p>
+                Kelola restoranmu, jalankan iklan, buat promo, dan lakukan lebih
+                banyak lagi
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button>Lihat semua layanan</button>
+      </section>
+    </main>
   </body>
 </html>
