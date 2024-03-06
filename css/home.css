@@ -261,3 +261,77 @@ background-color: #4ac9e3;
   .offering-box p{
     font-size: 1em;
   }
+
+
+/* reason */
+.reason{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason h1{
+  font-size: 3em;
+  margin: 3em 20vw 2em;
+  text-align: center;
+}
+
+.carousel-slider-reason {
+  display: inline-flex;
+  gap: 0.5em;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+.carousel-slider-reason a {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  background-color: #e2e2e2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.3s ease-in;
+  margin-top: 1em;
+}
+
+.carousel-slider-reason a:hover {
+  color: #ffff;
+  background-color: #007aff;
+}
+
+.carousel-slides-reason {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  gap: 5%;
+  margin: 0 5%;
+}
+
+
+.carousel-slides-reason > picture {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  transform-origin: center center;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+}
+
+.carousel-slides-reason > picture > img {
+  width: 100%;
+  
+  border-radius: 50px;
+  filter: brightness(50%);
+}
