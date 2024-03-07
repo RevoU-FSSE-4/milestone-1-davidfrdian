@@ -15,11 +15,8 @@
 
 .banner-video video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .banner-text {
@@ -35,6 +32,7 @@
 .banner-text h1 {
   font-size: 3em;
   text-shadow: 2px 1px 10px #000000;
+  width: 100%;
 }
 
 .introduction {
@@ -92,6 +90,7 @@
   font-size: 3em;
   font-weight: 800;
   text-align: center;
+  color: #000000;
   width: 100%;
 }
 
@@ -104,6 +103,11 @@ button {
   padding: 0.5em 1.5em;
   font-weight: 500;
   margin: 2em 0;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(70%);
 }
 
 .scale-categories {
@@ -162,7 +166,6 @@ button {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 5%;
   justify-content: center;
 }
 
@@ -177,12 +180,14 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 10%;
   gap: 3em;
-  margin: 0 5%;
+  
 }
 
 .offering-box {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.15);
   border-radius: 50px;
@@ -191,6 +196,8 @@ button {
   justify-content: center;
   align-items: center;
   width: 30%;
+  color: #000000;
+  margin: 3em 0;
 }
 
 .offering-box img {
@@ -252,7 +259,6 @@ button {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overflow: hidden;
-  gap: 5%;
   margin: 0 5%;
 }
 
@@ -310,21 +316,24 @@ button {
 
 .product-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2em;
-  margin: 5em 5% 2em;
+  gap: 3em;
+  margin: 5em 5em 2em;
 }
 
 .product-box {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
   flex-direction: column;
   border-radius: 20px;
+  width: 20%;
 }
 
 .product-box img {
   height: 5vh;
+  width: 100%;
 }
 
 .product-items {
@@ -334,7 +343,9 @@ button {
   flex-direction: column;
   border-radius: 20px;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: 1em;
+  width: 100%;
 }
 
 .product-caption {
@@ -382,12 +393,79 @@ button {
 
 .loyalti {
   display: flex;
+  flex-wrap: wrap;
+  margin: 5em 1em;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  margin: 2em 5em;
+}
+
+.loyalti-image img {
+  width: 100%;
+}
+
+.loyalti-text {
+  color: #fff;
+}
+
+.loyalti-text h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+.loyalti-text p {
+  font-size: 1em;
+}
+
+.footer-link-tab > ul > li,
+a,
+span,
+div {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+}
+
+.logo-footer img {
+  margin: 0 5% 2em;
+}
+
+.footer-link-tab {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5em;
+}
+
+.footer-link-tab span {
+  font-weight: 600;
+}
+
+.footer-link-tab li {
+  margin: 1em 0;
+}
+
+.connect-icons {
+  display: flex;
   gap: 2em;
 }
 
-.loyalti-text{
-  display: flex;
-  flex-direction: column;
+footer p {
+  color: #fff;
+  margin: 5em 5% 3em;
+  justify-content: center;
+  text-align: center;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer i:hover {
+  scale: 1.2;
 }

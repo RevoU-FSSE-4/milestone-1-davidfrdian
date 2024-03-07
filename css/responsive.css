@@ -1,0 +1,141 @@
+@media screen and (max-width: 1200px) {
+  html {
+    .offering-box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    .product-box {
+      width: 100%;
+      margin: 0 10%;
+    }
+
+    .product-box img {
+      width: auto;
+    }
+
+    .offering-box img {
+      transform: translate(0, -3em);
+    }
+
+    .introduction h1 {
+        margin: -2em 15% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  html {
+    .loyalti-text {
+      display: flex;
+      flex-direction: column;
+      order: -1;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 30%;
+      font-size: 75%;
+    }
+
+    .introduction h1 {
+        margin: -5em 15% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    .offering-box {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    .introduction h1 {
+        margin: -6em 15% 0;
+    }
+
+    .scale-categories-container {
+      width: 100%;
+      margin: 2em 10%;
+    }
+
+    .scale-categories-container img {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  html {
+    body {
+      font-size: 75%;
+    }
+
+    .footer-link-tab {
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+    }
+
+    .introduction h1 {
+        margin: -10em 15% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    .banner-text {
+      position: absolute;
+      top: 20%;
+    }
+
+    .introduction h1 {
+        margin: -10em 15% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    .banner-text {
+      position: absolute;
+      top: 15%;
+      font-size: 65%;
+    }
+
+    .introduction h1 {
+        margin: -14em 15% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    body {
+      font-size: 50%;
+    }
+
+    .scale-categories-container img {
+      width: 150px;
+      transform: translateY(-10em);
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 10%;
+    }
+
+    .introduction h1 {
+        margin: -25em 15% 0;
+    }
+  }
+}
