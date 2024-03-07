@@ -19,10 +19,6 @@
     .offering-box img {
       transform: translate(0, -3em);
     }
-
-    .introduction h1 {
-        margin: -2em 15% 0;
-    }
   }
 }
 
@@ -41,10 +37,6 @@
       top: 30%;
       font-size: 75%;
     }
-
-    .introduction h1 {
-        margin: -5em 15% 0;
-    }
   }
 }
 
@@ -56,10 +48,6 @@
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
-    }
-
-    .introduction h1 {
-        margin: -6em 15% 0;
     }
 
     .scale-categories-container {
@@ -84,10 +72,6 @@
       align-items: center;
       text-align: center;
     }
-
-    .introduction h1 {
-        margin: -10em 15% 0;
-    }
   }
 }
 
@@ -98,9 +82,6 @@
       top: 20%;
     }
 
-    .introduction h1 {
-        margin: -10em 15% 0;
-    }
   }
 }
 
@@ -110,10 +91,6 @@
       position: absolute;
       top: 15%;
       font-size: 65%;
-    }
-
-    .introduction h1 {
-        margin: -14em 15% 0;
     }
   }
 }
@@ -132,10 +109,6 @@
     .banner-text {
       position: absolute;
       top: 10%;
-    }
-
-    .introduction h1 {
-        margin: -25em 15% 0;
     }
   }
 }
