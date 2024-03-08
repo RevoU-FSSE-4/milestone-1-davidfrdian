@@ -5,7 +5,7 @@ if you interest, you can click [here](https://gojek-by-david.vercel.app/) to see
 for disclaimer, I used a custom domain from my previous project to save budget 😅
 
 # Table of Contents 📃
-- [Structures](#structures)
+- [Structures](#structures-📜)
 - [Materials](#materials🧱)
 - [How to setup](#how-to-setup-🛠️)
 - [Deployment & Custom Domain](#deployment--custom-domain-⚙️)
@@ -13,7 +13,7 @@ for disclaimer, I used a custom domain from my previous project to save budget �
     - [Custom Domain](#custom-domain)
 - [Author](#author-👦)
 
-# Structures
+# Structures-📜
 - Header
   - Navbar
 - Main
