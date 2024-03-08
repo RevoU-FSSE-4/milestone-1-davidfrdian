@@ -9,8 +9,8 @@ for disclaimer, I used a custom domain from my previous project to save budget �
 - [Materials](#materials-🧱)
 - [How to setup](#how-to-setup-🛠️)
 - [Deployment & Custom Domain](#deployment--custom-domain-⚙️)
-    - [Deployment](#)
-    - [Custom Domain](#)
+    - [Deployment](#deployment)
+    - [Custom Domain](#custom-domain)
 - [Author](#author-👦)
 
 # Structures 📜
@@ -100,31 +100,31 @@ git push origin main
 ![open website](./images/readme-assets/deploy-11.png)
 
 ## Custom Domain
-1. 
-![#](./images/readme-assets/custom-domain-1.png)
+1. Open Vercel again on [here](https://vercel.com)
+![open vercel](./images/readme-assets/custom-domain-1.png)
 
-2. 
-![#](./images/readme-assets/custom-domain-2.png)
+2. Click domains feature on your project that you want to custom
+![click domains feature](./images/readme-assets/custom-domain-2.png)
 
-3. 
-![#](./images/readme-assets/custom-domain-3.png)
+3. Type in the custom domain that you have purchased before
+![Type your custom domain](./images/readme-assets/custom-domain-3.png)
 
-4. 
-![#](./images/readme-assets/custom-domain-4.png)
+4. Invalid configuration will appear like this
+![Invalid configuration appear](./images/readme-assets/custom-domain-4.png)
 
-5. 
-![#](./images/readme-assets/custom-domain-5.png)
+5. Click on Name Servers and you will see what name server you are currently using, after that copy the available name server in 'intented Nameservers'
+![copy nameservers ](./images/readme-assets/custom-domain-5.png)
 
-6. 
-![#](./images/readme-assets/custom-domain-6.png)
+6. After that, open [Niagahoster](https://niagahoster.com) and enter the domain management that you have purchased, change the nameservers in that feature
+![change nameservers](./images/readme-assets/custom-domain-6.png)
 
-7. 
-![#](./images/readme-assets/custom-domain-7.png)
+7. Nameservers has been changed, it may take several hours for the domain to propagate
+![Nameservers has been changed](./images/readme-assets/custom-domain-7.png)
 
-8. 
-![#](./images/readme-assets/custom-domain-8.png)
+8. You can check the domain status on Vercel periodically, if it has propagated, the status will change to 'Valid Configuration'
+![check vercel periodecally and status change to 'Valid Configuration'](./images/readme-assets/custom-domain-8.png)
 
-9. 
+9. Go to your website to check your custom domain, if it has changed, congratulations! 🎊🎉 the custom domain process is complete. If not, you need to wait a little longer and try checking regularly 💪
 ![#](./images/readme-assets/custom-domain-9.png)
 
 
