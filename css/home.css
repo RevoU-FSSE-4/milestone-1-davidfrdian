@@ -33,6 +33,33 @@
   font-size: 3em;
   text-shadow: 2px 1px 10px #000000;
   width: 100%;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+    filter: opacity(0%);
+  }
+
+  30% {
+    transform: translateX(0);
+    filter: opacity(100%);
+  }
+
+
+  70% {
+    transform: translateX(0);
+    filter: opacity(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    filter: opacity(0%);
+  }
 }
 
 .introduction {
@@ -182,7 +209,6 @@ button:hover {
   justify-content: center;
   margin: 0 10%;
   gap: 3em;
-  
 }
 
 .offering-box {
