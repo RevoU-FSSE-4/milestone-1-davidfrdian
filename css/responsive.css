@@ -72,6 +72,53 @@
       align-items: center;
       text-align: center;
     }
+
+    .nav-mobile {
+      display: flex;
+    }
+
+    #x {
+      display: none;
+    }
+
+    #x:hover {
+      filter: brightness(80%);
+    }
+
+    #menuBtn:hover {
+      filter: brightness(80%);
+    }
+
+    .menu {
+      position: absolute;
+      top:5em;
+      right: 2em;
+      background-color: #101820;
+      z-index: 4;
+      box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      opacity: 0;
+      transition: 0.2s ease;
+    }
+
+    .menu-tab {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3em;
+      padding: 3em 3em;
+      text-align: center;
+      width: 100%;
+    }
+
+    .menu.active {
+      opacity: 1;
+    }
+
+    .menu-tab li:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -81,7 +128,6 @@
       position: absolute;
       top: 20%;
     }
-
   }
 }
 

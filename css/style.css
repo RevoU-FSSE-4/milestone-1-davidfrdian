@@ -44,3 +44,16 @@ header {
   text-decoration: underline;
   cursor: pointer;
 }
+
+
+.nav-mobile i {
+  color: #ffff;
+}
+
+.nav-mobile {
+  display: none;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
