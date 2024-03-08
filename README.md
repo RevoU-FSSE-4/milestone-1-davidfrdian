@@ -6,14 +6,14 @@ for disclaimer, I used a custom domain from my previous project to save budget �
 
 # Table of Contents 📃
 - [Structures](#structures)
-- [Materials](#materials-🧱)
+- [Materials](#materials🧱)
 - [How to setup](#how-to-setup-🛠️)
 - [Deployment & Custom Domain](#deployment--custom-domain-⚙️)
     - [Deployment](#deployment)
     - [Custom Domain](#custom-domain)
 - [Author](#author-👦)
 
-# Structures 📜
+# Structures
 - Header
   - Navbar
 - Main
@@ -26,7 +26,7 @@ for disclaimer, I used a custom domain from my previous project to save budget �
   - Loyalti
 - Footer
 
-# Materials 🧱
+# Materials🧱
 - HTML
 - CSS
 - JavaScript
