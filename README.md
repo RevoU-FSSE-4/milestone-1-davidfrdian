@@ -67,5 +67,5 @@ git push origin main
 # Deployment & Custom Domain ⚙️
 
 # Author 👦
-- LinkedIn : [David Ferdian](https://www.linkedin.com/in/davidferdian)
-- Instagram : [David Ferdian](https://www.instagram.com/david_f.h/)
+- LinkedIn: [David Ferdian](https://www.linkedin.com/in/davidferdian)
+- Instagram: [David Ferdian](https://www.instagram.com/david_f.h/)
