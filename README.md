@@ -5,15 +5,15 @@ if you interest, you can click [here](https://gojek-by-david.vercel.app/) to see
 for disclaimer, I used a custom domain from my previous project to save budget 😅
 
 # Table of Contents 📃
-- [Structures](#structures-📜)
-- [Materials](#materials🧱)
-- [How to setup](#how-to-setup-🛠️)
-- [Deployment & Custom Domain](#deployment--custom-domain-⚙️)
+- [Structures 📜](#structures)
+- [Materials 🧱](#materials)
+- [How to setup 🛠️](#how-to-setup)
+- [Deployment & Custom Domain ⚙️](#deployment--custom-domain)
     - [Deployment](#deployment)
     - [Custom Domain](#custom-domain)
-- [Author](#author-👦)
+- [Author 👦](#author)
 
-# Structures-📜
+# Structures
 - Header
   - Navbar
 - Main
@@ -26,7 +26,7 @@ for disclaimer, I used a custom domain from my previous project to save budget �
   - Loyalti
 - Footer
 
-# Materials🧱
+# Materials
 - HTML
 - CSS
 - JavaScript
@@ -35,7 +35,7 @@ for disclaimer, I used a custom domain from my previous project to save budget �
   - Picture (png, jpg, webp, svg)
   - Video
 
-# How to setup 🛠️
+# How to setup
 You will need a github account to clone this repository, make sure you're connected to github.
 
 1. Clone this repository
@@ -64,7 +64,7 @@ git commit -m "Merge develop into main"
 git push origin main
 ```
 
-# Deployment & Custom Domain ⚙️
+# Deployment & Custom Domain
 ## Deployment
 1. Open Vercel on this [link](https://vercel.com) and login with anything choice do you want
 ![open and login to vercel](./images/readme-assets/deploy-1.png)
@@ -127,8 +127,6 @@ git push origin main
 9. Go to your website to check your custom domain, if it has changed, congratulations! 🎊🎉 the custom domain process is complete. If not, you need to wait a little longer and try checking regularly 💪
 ![#](./images/readme-assets/custom-domain-9.png)
 
-
-
-# Author 👦
+# Author
 - LinkedIn: [David Ferdian](https://www.linkedin.com/in/davidferdian)
 - Instagram: [David Ferdian](https://www.instagram.com/david_f.h/)
